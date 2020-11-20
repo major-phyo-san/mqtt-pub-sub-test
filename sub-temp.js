@@ -1,5 +1,5 @@
 const mqtt = require('mqtt');
-const subClient = mqtt.connect('mqtt://localhost');
+const subClient = mqtt.connect('mqtt://178.128.16.62');
 
 subClient.on('connect', function(){
     subClient.subscribe('measurements/temperature/body');

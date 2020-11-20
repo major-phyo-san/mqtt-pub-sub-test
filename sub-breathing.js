@@ -1,5 +1,5 @@
 const mqtt = require('mqtt');
-const subClient = mqtt.connect('mqtt://localhost');
+const subClient = mqtt.connect('mqtt://178.128.16.62');
 
 var count = 0;
 

@@ -1,5 +1,5 @@
 const mqtt = require('mqtt');
-const pubClient = mqtt.connect('mqtt://localhost');
+const pubClient = mqtt.connect('mqtt://178.128.16.62');
 
 pubClient.on('connect', function(){
     pubClient.publish('connection/start', 'Connection established');
